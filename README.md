@@ -20,4 +20,4 @@ A website for the el squado fantasy football leauge. Will be able to track leagu
 - AWS - Hosting platform where you can deploy your Dockerized app. AWS S3/CloudFront can be used to serve Vue.js static files
   - Docker - Containerize your Vue.js frontend and Python backend applications to ensure consistency across different environments (development, staging, production)
   - NGINX - Often used as a reverse proxy server to handle requests between the frontend and backend. It can serve your static Vue.js files and route API requests to the Python backend
-  - Gunicorn - Used with Flask for running Python applications in production
+  - Uvicorn - Uvicorn is a lightning-fast ASGI server used with FastAPI
